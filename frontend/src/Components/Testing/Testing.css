@@ -10,30 +10,33 @@ body{
     
 }
 
+h1{
+    margin-top: 10px;
+    font-size: x-large;
+}
 h2{
-    margin-top: 80px;
-    margin-bottom: 30px;
+    margin-top: 40px;
+    margin-bottom: 20px;
 }
 h3{
+
     display: inline;
-    margin: 50px 50px;
 }
-
-img{
-display: none;
-}
-
-.ActiveImage{
-    display: block;
-    width: 20%;
-
-}
-
-#Image_Container{
+#form_box{
+    margin-top: 20px;
     display: flex;
-    width: 100%;
     justify-content: center;
-    margin-top: 30px;
+}
+form{
+    background-color: rgb(54, 54, 54);
+    width: 50%;
+    border: 1px solid white;
+    
+}
+
+input[type=file]{
+    margin-top: 20px;
+    font-size: medium;
 }
 
 input::file-selector-button {
@@ -42,11 +45,117 @@ input::file-selector-button {
     border: none;
     color: white;
     margin-right: 20px ;
+    transition: 0.5s;
+    font-weight: 500;
+}
+
+
+input::file-selector-button:hover{
+    background-color: rgb(66, 66, 66);
+    transition: 0.5s;
+    color: #ff9900;
+
+    cursor: pointer;
 
 }
-input[type=submit] {
-    background-color: rgb(138, 138, 138);
+#submit{
     padding: 10px 30px;
-    border: none;
     margin: 30px 0px;
+    border: 1px solid rgb(10, 10, 10);
+    background-color: rgb(138, 138, 138);
+    color: white;
+    border: none;
+    font-weight: 500;
+}
+
+#submit:hover{
+    background-color: rgb(66, 66, 66);
+    transition: 0.5s;
+    cursor: pointer;
+    color: #ff9900;
+
+}
+
+#Score_Card_Container{
+    display: flex;  
+    justify-content: center;
+}
+#Score_Card_Container_div{
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    padding: 20px 20px;
+    border: 1px solid white;
+    background-color: rgb(54, 54, 54);
+    margin: 30px 30px;
+}
+
+.Score{
+    width: 90%;
+    margin-left: 5%;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.Score_Header{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 0px;
+}
+
+.Score_Header span{
+    color: #ff9900;
+    font-size: larger;
+}
+
+.Outer_Bar{
+    height: 30px;
+    width: 100%;
+    border-radius: 10px;
+    background-color: azure;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.Inner_Bar{
+    height: 90%;
+    width: 78%;
+    background-color: #ff9900;
+    border-radius: 10px;
+    margin-left: 1.5px;
+}
+.readMore{
+    width: 100%;
+    display: flex;
+    margin-left: 20px;
+    justify-content: flex-start;
+    align-items: center;
+    transition: 0.5s;
+
+}
+
+.readMore:hover{
+    scale: 1.01;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+
+.readMore img{
+    width: 20px;
+    height: 20px;
+    align-self: flex-start;
+    margin: 10px 10px;
+}
+
+.readMore span{
+    font-size: large;
+}
+
+
+#InsideMenu1{
+    display: none;
+    background-color: #ff9900;
 }
