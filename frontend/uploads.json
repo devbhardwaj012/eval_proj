@@ -1,0 +1,25 @@
+[
+{
+    "Brand":"Neelkamal",
+    "ProductName":"Chair",
+    "Adult":"Not_Adult",
+    "Violence":"Not_Violence",
+    "Color":"Brown",
+    "Material":"Plastic",
+    "Armrests":"True",
+    "Size":"Medium",
+    "Durability":"Good",
+    "Weight":"Light"
+},
+{
+    "Brand":"Zara",
+    "ProductName":"Chair",
+    "Adult":"Not_Adult",
+    "Violence":"Not_Violence",
+    "Color":"Beige",
+    "Material":"Foam",
+    "Armrests":"True",
+    "Size":"Medium",
+    "Durability":"Good",
+    "Weight":"Heavy"
+}]

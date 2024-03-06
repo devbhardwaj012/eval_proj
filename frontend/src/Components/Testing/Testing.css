@@ -157,5 +157,37 @@ input::file-selector-button:hover{
 
 #InsideMenu1{
     display: none;
-    background-color: #ff9900;
+}
+
+@media screen and (max-width: 768px) {
+    #form_box {
+        width: 100%;
+    }
+    form {
+        width: 90%;
+    }
+
+    #Score_Card_Container_div {
+        width: 90%;
+        margin: 20px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .Score {
+        width: 100%;
+        margin-left: 0;
+    }
+    .Outer_Bar,.Inner_Bar {
+        width: 100%;
+        }
+
+    .Score_Header {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .Score_Header span {
+    margin-bottom: 5px;
+    }
 }
