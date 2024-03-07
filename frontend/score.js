@@ -346,9 +346,113 @@ if (array6[1] == "VERY_UNLIKELY") {
     c2[5] = 3.3;
 }
 
+<<<<<<< HEAD
 for(let i=0; i< d1.length; i++){
     d[i]=d1[i]+d2[i];
     e[i]=e1[i]+e2[i];
+=======
+if(array1[1]=="VERY_UNLIKELY"){
+    c2[0]=16.5;
+}
+else if(array1[1]=="UNLIKELY"){
+    c2[0]=13.2;
+}
+else if(array1[1]=="POSSIBLE"){
+    c2[0]=9.9;
+}
+else if(array1[1]=="LIKELY"){
+    c2[0]=6.6;
+}
+else if(array1[1]=="VERY_LIKELY"){
+    c2[0]=3.3;
+}
+
+
+if (array2[1] == "VERY_UNLIKELY") {
+    c2[1] = 16.5;
+}
+else if(array2[1]=="UNLIKELY"){
+    c2[1]=13.2;
+}
+else if(array2[1]=="POSSIBLE"){
+    c2[1]=9.9;
+}
+else if(array2[1]=="LIKELY"){
+    c2[1]=6.6;
+}
+else if(array2[1]=="VERY_LIKELY"){
+    c2[1]=3.3;
+}
+
+if (array3[1] == "VERY_UNLIKELY") {
+    c2[2] = 16.5;
+}
+else if(array3[1]=="UNLIKELY"){
+    c2[2]=13.2;
+}
+else if(array3[1]=="POSSIBLE"){
+    c2[2]=9.9;
+}
+else if(array3[1]=="LIKELY"){
+    c2[2]=6.6;
+}
+else if(array3[1]=="VERY_LIKELY"){
+    c2[2]=3.3;
+}
+
+if (array4[1] == "VERY_UNLIKELY") {
+    c2[3] = 16.5;
+}
+else if(array4[1]=="UNLIKELY"){
+    c2[3]=13.2;
+}
+else if(array4[1]=="POSSIBLE"){
+    c2[3]=9.9;
+}
+else if(array4[1]=="LIKELY"){
+    c2[3]=6.6;
+}
+else if(array4[1]=="VERY_LIKELY"){
+    c2[3]=3.3;
+}
+
+if (array5[1] == "VERY_UNLIKELY") {
+    c2[4] = 16.5;
+}
+else if(array5[1]=="UNLIKELY"){
+    c2[4]=13.2;
+}
+else if(array5[1]=="POSSIBLE"){
+    c2[4]=9.9;
+}
+else if(array5[1]=="LIKELY"){
+    c2[4]=6.6;
+}
+else if(array5[1]=="VERY_LIKELY"){
+    c2[4]=3.3;
+}
+
+if (array6[1] == "VERY_UNLIKELY") {
+    c2[5] = 16.5;
+}
+else if(array6[1]=="UNLIKELY"){
+    c2[5]=13.2;
+}
+else if(array6[1]=="POSSIBLE"){
+    c2[5]=9.9;
+}
+else if(array6[1]=="LIKELY"){
+    c2[5]=6.6;
+}
+else if(array6[1]=="VERY_LIKELY"){
+    c2[5]=3.3;
+}
+
+for(let i=0; i< d1.length; i++){
+    d[i]=d1[i]+d2[i];
+    e[i]=e1[i]+e2[i];
+    c[i]=c1[i]+c2[i];
+>>>>>>> local
 }
 
 console.log(array1);

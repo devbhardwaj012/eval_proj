@@ -2,7 +2,7 @@ import React, { useEffect } from 'react'
 import './Testing.css'
 import { useState } from 'react';
 import ReadMore from "./ReadMore.png";
-//import { Parser } from '../../parser1';
+// import { Parser } from '../../parser1';
 import axios from 'axios';
 
 
@@ -88,7 +88,7 @@ const handleSubmit = async (e) => {
           console.error('Error:', error);
       }
       alert("Pdf Submitted");
-      
+      handleClick();
   };
 
 // function InnerMenu(){
@@ -100,8 +100,8 @@ return (
 <body>        
             <div id="form_box">
                   <form action="#" onSubmit={handleSubmit}>
-                        <h2>Get Score Evaluated for your Catalouge</h2>
-                        <h3>Add your PDF Catalouge Here</h3>
+                        <h2>Get Score Evaluated for your Catalogue</h2>
+                        <h3>Add your PDF Catalogue Here</h3>
                         <br />
                         <input type="file"  accept='.pdf' required name="pdf" multiple/>
                         <br />
