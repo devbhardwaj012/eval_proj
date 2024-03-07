@@ -1,0 +1,18 @@
+[
+    {
+      "Brand" : "Neelkamal",
+      "ProductName" : "Chair",
+      "Rating" : "68%"
+    } ,
+    {
+      "Brand" : "Zara",
+      "ProductName" : "Chair",
+      "Rating" : "82"
+    } ,
+    {
+      "Brand" : "Cosco",
+      "ProductName" : "Chair",
+      "Rating" : "45"
+    } 
+]
+

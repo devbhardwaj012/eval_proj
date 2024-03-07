@@ -3,30 +3,36 @@ import './Testing.css'
 import { useState } from 'react';
 import ReadMore from "./ReadMore.png";
 //import { Parser } from '../../parser1';
+import axios from 'axios';
 
 
 
 const Testing = () => {
 
-      const handleSubmit = async (e) => {
-            e.preventDefault();
-        
-            const formData = new FormData();
-            formData.append('pdf', e.target.elements.pdf.files[0]);
-        
+
+
+      const handleClick = async () => {
             try {
-                const response = await fetch('http://localhost:5000/upload', {
-                    method: 'POST',
-                    body: formData,
-                });
-                const data = await response.text();
-                console.log(data); // Log response from the server
+              // Send POST request to server endpoint to run parser.js
+              const response = await axios.post('/run-parser1');
+              console.log(response.data);
             } catch (error) {
-                console.error('Error:', error);
+              console.error('Error:', error.message);
             }
-            alert("Pdf Submitted");
-            
-        };
+      };
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -61,6 +67,27 @@ if (Compliance_Bar) {
 }
 }, []);
 
+
+const handleSubmit = async (e) => {
+      e.preventDefault();
+  
+      const formData = new FormData();
+      formData.append('pdf', e.target.elements.pdf.files[0]);
+  
+      try {
+            const response = await fetch('http://localhost:5000/upload', {
+              method: 'POST',
+              body: formData,
+          });
+          const data = await response.text();
+          console.log(data); // Log response from the server
+      } catch (error) {
+          console.error('Error:', error);
+      }
+      alert("Pdf Submitted");
+      
+  };
+
 // function InnerMenu(){
 //       //document.querySelector("#InsideMenu1").style.display = "block";
 // }
@@ -73,9 +100,9 @@ return (
                         <h2>Get Score Evaluated for your Catalouge</h2>
                         <h3>Add your PDF Catalouge Here</h3>
                         <br />
-                        <input type="file"  accept='.pdf' required name="pdf"/>
+                        <input type="file"  accept='.pdf' required name="pdf" multiple/>
                         <br />
-                        <input type="submit" id='submit' />
+                        <input type="submit" id='submit' onClick={handleClick}/>
                   </form>  
             </div>
 
