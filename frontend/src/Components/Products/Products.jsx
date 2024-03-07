@@ -1,10 +1,13 @@
 import React from 'react';
+import './Products.css'
 import jsonData from './Productss.json';
+
 
 const Products = () => {
   return (
     <div>
       <h1>Table of Items</h1>
+      <div id='table_container'>
       <table>
         <thead>
           <tr>
@@ -23,6 +26,7 @@ const Products = () => {
           ))}
         </tbody>
       </table>
+      </div>
     </div>
   );
 };

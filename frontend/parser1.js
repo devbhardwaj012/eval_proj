@@ -29,7 +29,7 @@ let uploads = [];
 
                 // The raw PDF data in text form
                 const raw = pdfParser.getRawTextContent().replace(/\r\n/g, " ");
-                //console.log(raw);
+                console.log(raw);
 
                 // Return the parsed data
                 resolve({

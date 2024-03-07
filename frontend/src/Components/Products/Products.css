@@ -3,3 +3,36 @@
     padding: 0;
     box-sizing: border-box;
 }
+h1{
+    margin-top: 50px;
+}
+#table_container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 50px 0px;
+}
+
+table{
+    width: 70%;
+
+}
+
+
+table, th, td {
+    border: 1px solid white;
+    background-color: rgb(47, 47, 47);
+  }
+
+td{
+    height: 40px;
+    font-size: 18px;
+    width: 33.33%;
+}
+
+th{
+    height: 60px;
+    font-weight: 900;
+    font-size: large;
+    color: #ff9900;
+}
