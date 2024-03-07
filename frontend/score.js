@@ -82,13 +82,30 @@ const ikeaProduct = compare.find(product => product.Brand === "Ikea");
 let d=[];
 let d1=[];
 let d2=[];
+let e1=[];
+let e2=[];
+let e=[];
+let c1=[];
+let c2=[];
+let c=[];
 const product1= compare.find(product => product.Brand === array1[2]);
 if(product1){
     d1[0]=16.5;
     if(product1.ProductName === array1[4]){
         d2[0]=16.5;
+        e1[0]=16.5;
     } else {
         d2[0]=0;
+        e1[0]=0;
+    }
+
+    const category= product1.ProductCategory;
+    if(category){
+        if(category=== array1[3]){
+            e2[0]=16.5;
+        } else{
+            e2[0]=0;
+        }
     }
     // console.log(d1,d2);
 }
@@ -101,8 +118,18 @@ if(product2){
     d1[1]=16.5;
     if(product2.ProductName === array2[4]){
         d2[1]= 16.5;
+        e1[1]=16.5;
     } else {
         d2[1]=0;
+        e1[1]=0;
+    }
+    const category= product2.ProductCategory;
+    if(category){
+        if(category=== array2[3]){
+            e2[1]=16.5;
+        } else{
+            e2[1]=0;
+        }
     }
 } else {
     d1[1]=0;
@@ -113,8 +140,19 @@ if (product3) {
     d1[2] = 16.5;
     if (product3.ProductName === array3[4]) {
         d2[2] = 16.5;
+        e1[2] = 16.5;
     } else {
         d2[2]=0;
+        e1[2]=0;
+    }
+
+    const category= product3.ProductCategory;
+    if(category){
+        if(category=== array3[3]){
+            e2[2]=16.5;
+        } else{
+            e2[2]=0;
+        }
     }
 } else {
     d1[2]=0;
@@ -126,8 +164,18 @@ if (product4) {
     d1[3] = 16.5;
     if (product4.ProductName === array4[4]) {
         d2[3] = 16.5;
+        e1[3]=16.5;
     } else {
         d2[3]=0;
+        e1[3] = 0;
+    }
+    const category= product4.ProductCategory;
+    if(category){
+        if(category=== array4[3]){
+            e2[3]=16.5;
+        } else{
+            e2[3]=0;
+        }
     }
 } else { d1[3]=0;}
 
@@ -137,8 +185,18 @@ if (product5) {
     d1[4] = 16.5;
     if (product5.ProductName === array5[4]) {
         d2[4] = 16.5;
+        e1[4] = 16.5;
     } else{
         d2[4] = 0;
+        e1[4] = 0;
+    }
+    const category= product5.ProductCategory;
+    if(category){
+        if(category=== array5[3]){
+            e2[4]=16.5;
+        } else{
+            e2[4]=0;
+        }
     }
 } else {
     d1[4]=0;
@@ -150,18 +208,148 @@ if (product6) {
     d1[5] = 16.5;
     if (product6.ProductName === array6[4]) {
         d2[5] = 16.5;
+        e1[5] = 16.5;
     } else{
         d2[5]=0;
+        e1[5] = 0;
+    }
+    const category= product6.ProductCategory;
+    if(category){
+        if(category=== array6[3]){
+            e2[5]=16.5;
+        } else{
+            e2[5]=0;
+        }
     }
 } else{
     d1[5]=0;
 }
 
-for(let i=0; i< d1.length; i++){
-    d[i]=d1[i]+d2[i];
+if(array1[0]=="VERY_UNLIKELY"){
+    c1[0]=16.5;
+}
+else if(array1[0]=="UNLIKELY"){
+    c1[0]=13.2;
+}
+else if(array1[0]=="POSSIBLE"){
+    c1[0]=9.9;
+}
+else if(array1[0]=="LIKELY"){
+    c1[0]=6.6;
+}
+else if(array1[0]=="VERY_LIKELY"){
+    c1[0]=3.3;
 }
 
-let e1=[];
-let e2=[];
-let e=[];
+
+if (array2[0] == "VERY_UNLIKELY") {
+    c1[1] = 16.5;
+}
+else if(array2[0]=="UNLIKELY"){
+    c1[1]=13.2;
+}
+else if(array2[0]=="POSSIBLE"){
+    c1[1]=9.9;
+}
+else if(array2[0]=="LIKELY"){
+    c1[1]=6.6;
+}
+else if(array2[0]=="VERY_LIKELY"){
+    c1[1]=3.3;
+}
+
+if (array3[0] == "VERY_UNLIKELY") {
+    c1[2] = 16.5;
+}
+else if(array3[0]=="UNLIKELY"){
+    c1[2]=13.2;
+}
+else if(array3[0]=="POSSIBLE"){
+    c1[2]=9.9;
+}
+else if(array3[0]=="LIKELY"){
+    c1[2]=6.6;
+}
+else if(array3[0]=="VERY_LIKELY"){
+    c1[2]=3.3;
+}
+
+if (array4[0] == "VERY_UNLIKELY") {
+    c1[3] = 16.5;
+}
+else if(array4[0]=="UNLIKELY"){
+    c1[3]=13.2;
+}
+else if(array4[0]=="POSSIBLE"){
+    c1[3]=9.9;
+}
+else if(array4[0]=="LIKELY"){
+    c1[3]=6.6;
+}
+else if(array4[0]=="VERY_LIKELY"){
+    c1[3]=3.3;
+}
+
+if (array5[0] == "VERY_UNLIKELY") {
+    c1[4] = 16.5;
+}
+else if(array5[0]=="UNLIKELY"){
+    c1[4]=13.2;
+}
+else if(array5[0]=="POSSIBLE"){
+    c1[4]=9.9;
+}
+else if(array5[0]=="LIKELY"){
+    c1[4]=6.6;
+}
+else if(array5[0]=="VERY_LIKELY"){
+    c1[4]=3.3;
+}
+
+if (array6[0] == "VERY_UNLIKELY") {
+    c1[5] = 16.5;
+}
+else if(array6[0]=="UNLIKELY"){
+    c1[5]=13.2;
+}
+else if(array6[0]=="POSSIBLE"){
+    c1[5]=9.9;
+}
+else if(array6[0]=="LIKELY"){
+    c1[5]=6.6;
+}
+else if(array6[0]=="VERY_LIKELY"){
+    c1[5]=3.3;
+}
+
+
+if(array1[1]=="VERY_UNLIKELY"){
+    c2[0]=3.3;
+}
+if (array2[1] == "VERY_UNLIKELY") {
+    c2[1] = 3.3;
+}
+
+if (array3[1] == "VERY_UNLIKELY") {
+    c2[2] = 3.3;
+}
+
+if (array4[1] == "VERY_UNLIKELY") {
+    c2[3] = 3.3;
+}
+
+if (array5[1] == "VERY_UNLIKELY") {
+    c2[4] = 3.3;
+}
+
+if (array6[1] == "VERY_UNLIKELY") {
+    c2[5] = 3.3;
+}
+
+for(let i=0; i< d1.length; i++){
+    d[i]=d1[i]+d2[i];
+    e[i]=e1[i]+e2[i];
+}
+
+console.log(array1);
 
