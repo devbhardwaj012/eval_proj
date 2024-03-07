@@ -10,6 +10,17 @@ import axios from 'axios';
 const Testing = () => {
 
 
+      const [menuVisible, setMenuVisible] = useState({});
+
+      const toggleMenu = (menuId) => {
+          setMenuVisible(prevState => ({
+              ...prevState,
+              [menuId]: !prevState[menuId]
+          }));
+      };
+  
+
+
 
       const handleClick = async () => {
             try {
@@ -20,21 +31,6 @@ const Testing = () => {
               console.error('Error:', error.message);
             }
       };
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -55,6 +51,13 @@ useEffect(() => {
       const TotalScore = document.getElementById("TotalScore").innerText;
       const TotalScore_Bar = document.getElementById("TotalScore_Bar");
 
+
+
+
+
+      document.getElementById("Completeness_Score").textContent = Math.floor(parseFloat(document.getElementById("Completeness").innerText)/3) + "%";
+      document.getElementById("Compliance_Score").textContent = Math.floor(parseFloat(document.getElementById("Compliance").innerText)/3) + "%";
+      document.getElementById("Correctness_Score").textContent = Math.floor(parseFloat(document.getElementById("Correctness").innerText)/3) + "%";
 
 
 
@@ -102,7 +105,7 @@ return (
                         <br />
                         <input type="file"  accept='.pdf' required name="pdf" multiple/>
                         <br />
-                        <input type="submit" id='submit' onClick={handleClick}/>
+                        <input type="submit" id='submit' />
                   </form>  
             </div>
 
@@ -119,14 +122,14 @@ return (
                                     <div className="Inner_Bar" id='Compliance_Bar'>  
                                     </div>
                               </div>
-                              <a className='readMore'>
+                              <a className='readMore' onClick={() => toggleMenu("complianceMenu")} >
                                     <img src={ReadMore} alt="" />
                                     <span>See how this was Evaluated</span>
                               </a>
-                              {/* <div id="InsideMenu1">
-                                    <h1>SafeSearch</h1>
-                                    <h1>SafeSearch</h1>
-                              </div> */}
+                              <div id="InsideMenu1" style={{ display: menuVisible["complianceMenu"] ? 'flex' : 'none' }}>
+                                    <h4>Adult : <span id='Adult_Score'></span></h4>
+                                    <h4>Violence : <span id='Violence_Score'></span></h4>
+                              </div> 
                         </div>
 
                         <div className='Score'>
@@ -139,6 +142,15 @@ return (
 
                                     </div>
                               </div>
+                              <a className='readMore'onClick={() => toggleMenu("correctnessMenu")} >
+                                    <img src={ReadMore} alt="" />
+                                    <span>See how this was Evaluated</span>
+                              </a>
+                              <div id="InsideMenu1" style={{ display: menuVisible["correctnessMenu"] ? 'flex' : 'none' }}>
+                                    <h4>Logo : <span id='Logo_Score'></span></h4>
+                                    <h4>Product Identification : <span id='Product_Score'></span></h4>
+                                    <h4>Colour : <span id='Colour_Score'></span></h4>
+                              </div> 
 
                         </div>
 
@@ -151,6 +163,14 @@ return (
                                     <div className="Inner_Bar" id='Completeness_Bar'>
                                     </div>
                               </div>
+                              <a className='readMore'  onClick={() => toggleMenu("completenessMenu")} >
+                                    <img src={ReadMore} alt="" />
+                                    <span>See how this was Evaluated</span>
+                              </a>
+                              <div id="InsideMenu1" style={{ display: menuVisible["completenessMenu"] ? 'flex' : 'none' }}>
+                                    <h4>Product Category : <span id='ProductC_Score'></span></h4>
+                                    <h4>Product Identification : <span id='Product_Score'></span></h4>
+                              </div> 
                         </div>
                         <div className='Score' >
                               <div className='Score_Header'>
@@ -162,6 +182,15 @@ return (
 
                                     </div>
                               </div>
+                                    <a className='readMore'onClick={() => toggleMenu("ScoreMenu")} >
+                                    <img src={ReadMore} alt="" />
+                                    <span>See how this was Evaluated</span>
+                              </a>
+                              <div id="InsideMenu1" style={{ display: menuVisible["ScoreMenu"] ? 'flex' : 'none' }}>
+                                    <h4>Completeness : <span id='Completeness_Score'></span></h4>
+                                    <h4>Compliance : <span id='Compliance_Score'></span></h4>
+                                    <h4>Correctness : <span id='Correctness_Score'></span></h4>
+                              </div> 
                         </div>
                   </div>
                   
@@ -173,4 +202,3 @@ return (
 
 
 export default Testing ;
-

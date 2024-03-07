@@ -1,0 +1,2439 @@
+[
+    {   
+        "id":"1",
+        "cropHintsAnnotation": {
+          "cropHints": [
+            {
+              "boundingPoly": {
+                "vertices": [
+                  {},
+                  {
+                    "x": 400
+                  },
+                  {
+                    "x": 400,
+                    "y": 499
+                  },
+                  {
+                    "y": 499
+                  }
+                ]
+              },
+              "confidence": 0.34431642,
+              "importanceFraction": 1
+            },
+            {
+              "boundingPoly": {
+                "vertices": [
+                  {
+                    "y": 5
+                  },
+                  {
+                    "x": 487,
+                    "y": 5
+                  },
+                  {
+                    "x": 487,
+                    "y": 494
+                  },
+                  {
+                    "y": 494
+                  }
+                ]
+              },
+              "confidence": 0.28916654,
+              "importanceFraction": 1
+            },
+            {
+              "boundingPoly": {
+                "vertices": [
+                  {
+                    "y": 46
+                  },
+                  {
+                    "x": 487,
+                    "y": 46
+                  },
+                  {
+                    "x": 487,
+                    "y": 453
+                  },
+                  {
+                    "y": 453
+                  }
+                ]
+              },
+              "confidence": 0.34699988,
+              "importanceFraction": 1
+            }
+          ]
+        },
+        "imagePropertiesAnnotation": {
+          "cropHints": [
+            {
+              "boundingPoly": {
+                "vertices": [
+                  {},
+                  {
+                    "x": 400
+                  },
+                  {
+                    "x": 400,
+                    "y": 499
+                  },
+                  {
+                    "y": 499
+                  }
+                ]
+              },
+              "confidence": 0.34431642,
+              "importanceFraction": 1
+            },
+            {
+              "boundingPoly": {
+                "vertices": [
+                  {
+                    "y": 5
+                  },
+                  {
+                    "x": 487,
+                    "y": 5
+                  },
+                  {
+                    "x": 487,
+                    "y": 494
+                  },
+                  {
+                    "y": 494
+                  }
+                ]
+              },
+              "confidence": 0.28916654,
+              "importanceFraction": 1
+            },
+            {
+              "boundingPoly": {
+                "vertices": [
+                  {
+                    "y": 46
+                  },
+                  {
+                    "x": 487,
+                    "y": 46
+                  },
+                  {
+                    "x": 487,
+                    "y": 453
+                  },
+                  {
+                    "y": 453
+                  }
+                ]
+              },
+              "confidence": 0.34699988,
+              "importanceFraction": 1
+            }
+          ],
+          "dominantColors": {
+            "colors": [
+              {
+                "color": {
+                  "blue": 107,
+                  "green": 115,
+                  "red": 131
+                },
+                "hex": "83736B",
+                "percent": 20.49426466184128,
+                "percentRounded": 20,
+                "pixelFraction": 0.060508784,
+                "rgb": "131, 115,\n 107",
+                "score": 0.16999002
+              },
+              {
+                "color": {
+                  "blue": 236,
+                  "green": 240,
+                  "red": 246
+                },
+                "hex": "F6F0EC",
+                "percent": 2.321626413232616,
+                "percentRounded": 2,
+                "pixelFraction": 0.67970926,
+                "rgb": "246, 240,\n 236",
+                "score": 0.019256769
+              },
+              {
+                "color": {
+                  "blue": 122,
+                  "green": 201,
+                  "red": 218
+                },
+                "hex": "DAC97A",
+                "percent": 0.8977484633367443,
+                "percentRounded": 1,
+                "pixelFraction": 0.00030284675,
+                "rgb": "218, 201,\n 122",
+                "score": 0.0074463896
+              },
+              {
+                "color": {
+                  "blue": 75,
+                  "green": 82,
+                  "red": 99
+                },
+                "hex": "63524B",
+                "percent": 19.391647070334976,
+                "percentRounded": 19,
+                "pixelFraction": 0.070745006,
+                "rgb": "99, 82,\n 75",
+                "score": 0.16084434
+              },
+              {
+                "color": {
+                  "blue": 64,
+                  "green": 79,
+                  "red": 100
+                },
+                "hex": "644F40",
+                "percent": 16.68520727680794,
+                "percentRounded": 17,
+                "pixelFraction": 0.032101758,
+                "rgb": "100, 79,\n 64",
+                "score": 0.13839573
+              },
+              {
+                "color": {
+                  "blue": 46,
+                  "green": 52,
+                  "red": 67
+                },
+                "hex": "43342E",
+                "percent": 12.701718390034857,
+                "percentRounded": 13,
+                "pixelFraction": 0.0466384,
+                "rgb": "67, 52,\n 46",
+                "score": 0.105354615
+              },
+              {
+                "color": {
+                  "blue": 103,
+                  "green": 116,
+                  "red": 137
+                },
+                "hex": "897467",
+                "percent": 8.305893241415914,
+                "percentRounded": 8,
+                "pixelFraction": 0.013930951,
+                "rgb": "137, 116,\n 103",
+                "score": 0.06889337
+              },
+              {
+                "color": {
+                  "blue": 38,
+                  "green": 52,
+                  "red": 71
+                },
+                "hex": "473426",
+                "percent": 8.221864234395325,
+                "percentRounded": 8,
+                "pixelFraction": 0.01865536,
+                "rgb": "71, 52,\n 38",
+                "score": 0.06819639
+              },
+              {
+                "color": {
+                  "blue": 138,
+                  "green": 146,
+                  "red": 161
+                },
+                "hex": "A1928A",
+                "percent": 7.259582487094153,
+                "percentRounded": 7,
+                "pixelFraction": 0.019018777,
+                "rgb": "161, 146,\n 138",
+                "score": 0.060214728
+              },
+              {
+                "color": {
+                  "blue": 64,
+                  "green": 76,
+                  "red": 103
+                },
+                "hex": "674C40",
+                "percent": 3.7204477615061946,
+                "percentRounded": 4,
+                "pixelFraction": 0.00841914,
+                "rgb": "103, 76,\n 64",
+                "score": 0.030859316
+              }
+            ]
+          }
+        },
+        "labelAnnotations": [
+          {
+            "description": "Furniture",
+            "mid": "/m/0c_jw",
+            "score": 0.9456387,
+            "topicality": 0.9456387
+          },
+          {
+            "description": "Chair",
+            "mid": "/m/01mzpv",
+            "score": 0.8928524,
+            "topicality": 0.8928524
+          },
+          {
+            "description": "Outdoor furniture",
+            "mid": "/m/0cp2d4k",
+            "score": 0.84238136,
+            "topicality": 0.84238136
+          },
+          {
+            "description": "Armrest",
+            "mid": "/m/0fy6hp",
+            "score": 0.8213057,
+            "topicality": 0.8213057
+          },
+          {
+            "description": "Wood",
+            "mid": "/m/083vt",
+            "score": 0.80767685,
+            "topicality": 0.80767685
+          },
+          {
+            "description": "Comfort",
+            "mid": "/m/08xgn7",
+            "score": 0.8044044,
+            "topicality": 0.8044044
+          },
+          {
+            "description": "Rectangle",
+            "mid": "/m/0j62f",
+            "score": 0.7689281,
+            "topicality": 0.7689281
+          },
+          {
+            "description": "Wood stain",
+            "mid": "/m/05t06b",
+            "score": 0.74207026,
+            "topicality": 0.74207026
+          },
+          {
+            "description": "Hardwood",
+            "mid": "/m/020g49",
+            "score": 0.72900265,
+            "topicality": 0.72900265
+          },
+          {
+            "description": "Terrestrial plant",
+            "mid": "/m/0fbflw",
+            "score": 0.70574313,
+            "topicality": 0.70574313
+          },
+          {
+            "description": "Auto part",
+            "mid": "/m/08dz3q",
+            "score": 0.5620352,
+            "topicality": 0.5620352
+          },
+          {
+            "description": "Varnish",
+            "mid": "/m/01ffcg",
+            "score": 0.50571036,
+            "topicality": 0.50571036
+          }
+        ],
+        "localizedObjectAnnotations": [
+          {
+            "boundingPoly": {
+              "normalizedVertices": [
+                {
+                  "x": 0.056396484,
+                  "y": 0.07080078
+                },
+                {
+                  "x": 0.703125,
+                  "y": 0.07080078
+                },
+                {
+                  "x": 0.703125,
+                  "y": 1
+                },
+                {
+                  "x": 0.056396484,
+                  "y": 1
+                }
+              ]
+            },
+            "mid": "/m/01mzpv",
+            "name": "Chair",
+            "score": 0.89285785
+          }
+        ],
+        "logoAnnotations": [
+          {
+            "boundingPoly": {
+              "vertices": [
+                {
+                  "x": 18,
+                  "y": 15
+                },
+                {
+                  "x": 402,
+                  "y": 15
+                },
+                {
+                  "x": 402,
+                  "y": 485
+                },
+                {
+                  "x": 18,
+                  "y": 485
+                }
+              ]
+            },
+            "description": "Nilkamal Plastics",
+            "mid": "/m/0dllkxv",
+            "score": 0.63010293
+          }
+        ],
+        "safeSearchAnnotation": {
+          "adult": "VERY_UNLIKELY",
+          "medical": "VERY_UNLIKELY",
+          "racy": "VERY_UNLIKELY",
+          "spoof": "VERY_UNLIKELY",
+          "violence": "VERY_UNLIKELY"
+        }
+      },
+      { 
+
+        "id":"2",
+        "cropHintsAnnotation": {
+          "cropHints": [
+            {
+              "boundingPoly": {
+                "vertices": [
+                  {},
+                  {
+                    "x": 400
+                  },
+                  {
+                    "x": 400,
+                    "y": 499
+                  },
+                  {
+                    "y": 499
+                  }
+                ]
+              },
+              "confidence": 0.34431642,
+              "importanceFraction": 1
+            },
+            {
+              "boundingPoly": {
+                "vertices": [
+                  {
+                    "y": 5
+                  },
+                  {
+                    "x": 487,
+                    "y": 5
+                  },
+                  {
+                    "x": 487,
+                    "y": 494
+                  },
+                  {
+                    "y": 494
+                  }
+                ]
+              },
+              "confidence": 0.28916654,
+              "importanceFraction": 1
+            },
+            {
+              "boundingPoly": {
+                "vertices": [
+                  {
+                    "y": 46
+                  },
+                  {
+                    "x": 487,
+                    "y": 46
+                  },
+                  {
+                    "x": 487,
+                    "y": 453
+                  },
+                  {
+                    "y": 453
+                  }
+                ]
+              },
+              "confidence": 0.34699988,
+              "importanceFraction": 1
+            }
+          ]
+        },
+        "imagePropertiesAnnotation": {
+          "cropHints": [
+            {
+              "boundingPoly": {
+                "vertices": [
+                  {},
+                  {
+                    "x": 400
+                  },
+                  {
+                    "x": 400,
+                    "y": 499
+                  },
+                  {
+                    "y": 499
+                  }
+                ]
+              },
+              "confidence": 0.34431642,
+              "importanceFraction": 1
+            },
+            {
+              "boundingPoly": {
+                "vertices": [
+                  {
+                    "y": 5
+                  },
+                  {
+                    "x": 487,
+                    "y": 5
+                  },
+                  {
+                    "x": 487,
+                    "y": 494
+                  },
+                  {
+                    "y": 494
+                  }
+                ]
+              },
+              "confidence": 0.28916654,
+              "importanceFraction": 1
+            },
+            {
+              "boundingPoly": {
+                "vertices": [
+                  {
+                    "y": 46
+                  },
+                  {
+                    "x": 487,
+                    "y": 46
+                  },
+                  {
+                    "x": 487,
+                    "y": 453
+                  },
+                  {
+                    "y": 453
+                  }
+                ]
+              },
+              "confidence": 0.34699988,
+              "importanceFraction": 1
+            }
+          ],
+          "dominantColors": {
+            "colors": [
+              {
+                "color": {
+                  "blue": 107,
+                  "green": 115,
+                  "red": 131
+                },
+                "hex": "83736B",
+                "percent": 20.49426466184128,
+                "percentRounded": 20,
+                "pixelFraction": 0.060508784,
+                "rgb": "131, 115,\n 107",
+                "score": 0.16999002
+              },
+              {
+                "color": {
+                  "blue": 236,
+                  "green": 240,
+                  "red": 246
+                },
+                "hex": "F6F0EC",
+                "percent": 2.321626413232616,
+                "percentRounded": 2,
+                "pixelFraction": 0.67970926,
+                "rgb": "246, 240,\n 236",
+                "score": 0.019256769
+              },
+              {
+                "color": {
+                  "blue": 122,
+                  "green": 201,
+                  "red": 218
+                },
+                "hex": "DAC97A",
+                "percent": 0.8977484633367443,
+                "percentRounded": 1,
+                "pixelFraction": 0.00030284675,
+                "rgb": "218, 201,\n 122",
+                "score": 0.0074463896
+              },
+              {
+                "color": {
+                  "blue": 75,
+                  "green": 82,
+                  "red": 99
+                },
+                "hex": "63524B",
+                "percent": 19.391647070334976,
+                "percentRounded": 19,
+                "pixelFraction": 0.070745006,
+                "rgb": "99, 82,\n 75",
+                "score": 0.16084434
+              },
+              {
+                "color": {
+                  "blue": 64,
+                  "green": 79,
+                  "red": 100
+                },
+                "hex": "644F40",
+                "percent": 16.68520727680794,
+                "percentRounded": 17,
+                "pixelFraction": 0.032101758,
+                "rgb": "100, 79,\n 64",
+                "score": 0.13839573
+              },
+              {
+                "color": {
+                  "blue": 46,
+                  "green": 52,
+                  "red": 67
+                },
+                "hex": "43342E",
+                "percent": 12.701718390034857,
+                "percentRounded": 13,
+                "pixelFraction": 0.0466384,
+                "rgb": "67, 52,\n 46",
+                "score": 0.105354615
+              },
+              {
+                "color": {
+                  "blue": 103,
+                  "green": 116,
+                  "red": 137
+                },
+                "hex": "897467",
+                "percent": 8.305893241415914,
+                "percentRounded": 8,
+                "pixelFraction": 0.013930951,
+                "rgb": "137, 116,\n 103",
+                "score": 0.06889337
+              },
+              {
+                "color": {
+                  "blue": 38,
+                  "green": 52,
+                  "red": 71
+                },
+                "hex": "473426",
+                "percent": 8.221864234395325,
+                "percentRounded": 8,
+                "pixelFraction": 0.01865536,
+                "rgb": "71, 52,\n 38",
+                "score": 0.06819639
+              },
+              {
+                "color": {
+                  "blue": 138,
+                  "green": 146,
+                  "red": 161
+                },
+                "hex": "A1928A",
+                "percent": 7.259582487094153,
+                "percentRounded": 7,
+                "pixelFraction": 0.019018777,
+                "rgb": "161, 146,\n 138",
+                "score": 0.060214728
+              },
+              {
+                "color": {
+                  "blue": 64,
+                  "green": 76,
+                  "red": 103
+                },
+                "hex": "674C40",
+                "percent": 3.7204477615061946,
+                "percentRounded": 4,
+                "pixelFraction": 0.00841914,
+                "rgb": "103, 76,\n 64",
+                "score": 0.030859316
+              }
+            ]
+          }
+        },
+        "labelAnnotations": [
+          {
+            "description": "Furniture",
+            "mid": "/m/0c_jw",
+            "score": 0.9456387,
+            "topicality": 0.9456387
+          },
+          {
+            "description": "Chair",
+            "mid": "/m/01mzpv",
+            "score": 0.8928524,
+            "topicality": 0.8928524
+          },
+          {
+            "description": "Outdoor furniture",
+            "mid": "/m/0cp2d4k",
+            "score": 0.84238136,
+            "topicality": 0.84238136
+          },
+          {
+            "description": "Armrest",
+            "mid": "/m/0fy6hp",
+            "score": 0.8213057,
+            "topicality": 0.8213057
+          },
+          {
+            "description": "Wood",
+            "mid": "/m/083vt",
+            "score": 0.80767685,
+            "topicality": 0.80767685
+          },
+          {
+            "description": "Comfort",
+            "mid": "/m/08xgn7",
+            "score": 0.8044044,
+            "topicality": 0.8044044
+          },
+          {
+            "description": "Rectangle",
+            "mid": "/m/0j62f",
+            "score": 0.7689281,
+            "topicality": 0.7689281
+          },
+          {
+            "description": "Wood stain",
+            "mid": "/m/05t06b",
+            "score": 0.74207026,
+            "topicality": 0.74207026
+          },
+          {
+            "description": "Hardwood",
+            "mid": "/m/020g49",
+            "score": 0.72900265,
+            "topicality": 0.72900265
+          },
+          {
+            "description": "Terrestrial plant",
+            "mid": "/m/0fbflw",
+            "score": 0.70574313,
+            "topicality": 0.70574313
+          },
+          {
+            "description": "Auto part",
+            "mid": "/m/08dz3q",
+            "score": 0.5620352,
+            "topicality": 0.5620352
+          },
+          {
+            "description": "Varnish",
+            "mid": "/m/01ffcg",
+            "score": 0.50571036,
+            "topicality": 0.50571036
+          }
+        ],
+        "localizedObjectAnnotations": [
+          {
+            "boundingPoly": {
+              "normalizedVertices": [
+                {
+                  "x": 0.056396484,
+                  "y": 0.07080078
+                },
+                {
+                  "x": 0.703125,
+                  "y": 0.07080078
+                },
+                {
+                  "x": 0.703125,
+                  "y": 1
+                },
+                {
+                  "x": 0.056396484,
+                  "y": 1
+                }
+              ]
+            },
+            "mid": "/m/01mzpv",
+            "name": "Chair",
+            "score": 0.89285785
+          }
+        ],
+        "logoAnnotations": [
+          {
+            "boundingPoly": {
+              "vertices": [
+                {
+                  "x": 18,
+                  "y": 15
+                },
+                {
+                  "x": 402,
+                  "y": 15
+                },
+                {
+                  "x": 402,
+                  "y": 485
+                },
+                {
+                  "x": 18,
+                  "y": 485
+                }
+              ]
+            },
+            "description": "Nilkamal Plastics",
+            "mid": "/m/0dllkxv",
+            "score": 0.63010293
+          }
+        ],
+        "safeSearchAnnotation": {
+          "adult": "VERY_UNLIKELY",
+          "medical": "VERY_UNLIKELY",
+          "racy": "VERY_UNLIKELY",
+          "spoof": "VERY_UNLIKELY",
+          "violence": "VERY_UNLIKELY"
+        }
+      },
+      {
+        "id":"3",
+        "cropHintsAnnotation": {
+          "cropHints": [
+            {
+              "boundingPoly": {
+                "vertices": [
+                  {},
+                  {
+                    "x": 400
+                  },
+                  {
+                    "x": 400,
+                    "y": 499
+                  },
+                  {
+                    "y": 499
+                  }
+                ]
+              },
+              "confidence": 0.34431642,
+              "importanceFraction": 1
+            },
+            {
+              "boundingPoly": {
+                "vertices": [
+                  {
+                    "y": 5
+                  },
+                  {
+                    "x": 487,
+                    "y": 5
+                  },
+                  {
+                    "x": 487,
+                    "y": 494
+                  },
+                  {
+                    "y": 494
+                  }
+                ]
+              },
+              "confidence": 0.28916654,
+              "importanceFraction": 1
+            },
+            {
+              "boundingPoly": {
+                "vertices": [
+                  {
+                    "y": 46
+                  },
+                  {
+                    "x": 487,
+                    "y": 46
+                  },
+                  {
+                    "x": 487,
+                    "y": 453
+                  },
+                  {
+                    "y": 453
+                  }
+                ]
+              },
+              "confidence": 0.34699988,
+              "importanceFraction": 1
+            }
+          ]
+        },
+        "imagePropertiesAnnotation": {
+          "cropHints": [
+            {
+              "boundingPoly": {
+                "vertices": [
+                  {},
+                  {
+                    "x": 400
+                  },
+                  {
+                    "x": 400,
+                    "y": 499
+                  },
+                  {
+                    "y": 499
+                  }
+                ]
+              },
+              "confidence": 0.34431642,
+              "importanceFraction": 1
+            },
+            {
+              "boundingPoly": {
+                "vertices": [
+                  {
+                    "y": 5
+                  },
+                  {
+                    "x": 487,
+                    "y": 5
+                  },
+                  {
+                    "x": 487,
+                    "y": 494
+                  },
+                  {
+                    "y": 494
+                  }
+                ]
+              },
+              "confidence": 0.28916654,
+              "importanceFraction": 1
+            },
+            {
+              "boundingPoly": {
+                "vertices": [
+                  {
+                    "y": 46
+                  },
+                  {
+                    "x": 487,
+                    "y": 46
+                  },
+                  {
+                    "x": 487,
+                    "y": 453
+                  },
+                  {
+                    "y": 453
+                  }
+                ]
+              },
+              "confidence": 0.34699988,
+              "importanceFraction": 1
+            }
+          ],
+          "dominantColors": {
+            "colors": [
+              {
+                "color": {
+                  "blue": 107,
+                  "green": 115,
+                  "red": 131
+                },
+                "hex": "83736B",
+                "percent": 20.49426466184128,
+                "percentRounded": 20,
+                "pixelFraction": 0.060508784,
+                "rgb": "131, 115,\n 107",
+                "score": 0.16999002
+              },
+              {
+                "color": {
+                  "blue": 236,
+                  "green": 240,
+                  "red": 246
+                },
+                "hex": "F6F0EC",
+                "percent": 2.321626413232616,
+                "percentRounded": 2,
+                "pixelFraction": 0.67970926,
+                "rgb": "246, 240,\n 236",
+                "score": 0.019256769
+              },
+              {
+                "color": {
+                  "blue": 122,
+                  "green": 201,
+                  "red": 218
+                },
+                "hex": "DAC97A",
+                "percent": 0.8977484633367443,
+                "percentRounded": 1,
+                "pixelFraction": 0.00030284675,
+                "rgb": "218, 201,\n 122",
+                "score": 0.0074463896
+              },
+              {
+                "color": {
+                  "blue": 75,
+                  "green": 82,
+                  "red": 99
+                },
+                "hex": "63524B",
+                "percent": 19.391647070334976,
+                "percentRounded": 19,
+                "pixelFraction": 0.070745006,
+                "rgb": "99, 82,\n 75",
+                "score": 0.16084434
+              },
+              {
+                "color": {
+                  "blue": 64,
+                  "green": 79,
+                  "red": 100
+                },
+                "hex": "644F40",
+                "percent": 16.68520727680794,
+                "percentRounded": 17,
+                "pixelFraction": 0.032101758,
+                "rgb": "100, 79,\n 64",
+                "score": 0.13839573
+              },
+              {
+                "color": {
+                  "blue": 46,
+                  "green": 52,
+                  "red": 67
+                },
+                "hex": "43342E",
+                "percent": 12.701718390034857,
+                "percentRounded": 13,
+                "pixelFraction": 0.0466384,
+                "rgb": "67, 52,\n 46",
+                "score": 0.105354615
+              },
+              {
+                "color": {
+                  "blue": 103,
+                  "green": 116,
+                  "red": 137
+                },
+                "hex": "897467",
+                "percent": 8.305893241415914,
+                "percentRounded": 8,
+                "pixelFraction": 0.013930951,
+                "rgb": "137, 116,\n 103",
+                "score": 0.06889337
+              },
+              {
+                "color": {
+                  "blue": 38,
+                  "green": 52,
+                  "red": 71
+                },
+                "hex": "473426",
+                "percent": 8.221864234395325,
+                "percentRounded": 8,
+                "pixelFraction": 0.01865536,
+                "rgb": "71, 52,\n 38",
+                "score": 0.06819639
+              },
+              {
+                "color": {
+                  "blue": 138,
+                  "green": 146,
+                  "red": 161
+                },
+                "hex": "A1928A",
+                "percent": 7.259582487094153,
+                "percentRounded": 7,
+                "pixelFraction": 0.019018777,
+                "rgb": "161, 146,\n 138",
+                "score": 0.060214728
+              },
+              {
+                "color": {
+                  "blue": 64,
+                  "green": 76,
+                  "red": 103
+                },
+                "hex": "674C40",
+                "percent": 3.7204477615061946,
+                "percentRounded": 4,
+                "pixelFraction": 0.00841914,
+                "rgb": "103, 76,\n 64",
+                "score": 0.030859316
+              }
+            ]
+          }
+        },
+        "labelAnnotations": [
+          {
+            "description": "Furniture",
+            "mid": "/m/0c_jw",
+            "score": 0.9456387,
+            "topicality": 0.9456387
+          },
+          {
+            "description": "Chair",
+            "mid": "/m/01mzpv",
+            "score": 0.8928524,
+            "topicality": 0.8928524
+          },
+          {
+            "description": "Outdoor furniture",
+            "mid": "/m/0cp2d4k",
+            "score": 0.84238136,
+            "topicality": 0.84238136
+          },
+          {
+            "description": "Armrest",
+            "mid": "/m/0fy6hp",
+            "score": 0.8213057,
+            "topicality": 0.8213057
+          },
+          {
+            "description": "Wood",
+            "mid": "/m/083vt",
+            "score": 0.80767685,
+            "topicality": 0.80767685
+          },
+          {
+            "description": "Comfort",
+            "mid": "/m/08xgn7",
+            "score": 0.8044044,
+            "topicality": 0.8044044
+          },
+          {
+            "description": "Rectangle",
+            "mid": "/m/0j62f",
+            "score": 0.7689281,
+            "topicality": 0.7689281
+          },
+          {
+            "description": "Wood stain",
+            "mid": "/m/05t06b",
+            "score": 0.74207026,
+            "topicality": 0.74207026
+          },
+          {
+            "description": "Hardwood",
+            "mid": "/m/020g49",
+            "score": 0.72900265,
+            "topicality": 0.72900265
+          },
+          {
+            "description": "Terrestrial plant",
+            "mid": "/m/0fbflw",
+            "score": 0.70574313,
+            "topicality": 0.70574313
+          },
+          {
+            "description": "Auto part",
+            "mid": "/m/08dz3q",
+            "score": 0.5620352,
+            "topicality": 0.5620352
+          },
+          {
+            "description": "Varnish",
+            "mid": "/m/01ffcg",
+            "score": 0.50571036,
+            "topicality": 0.50571036
+          }
+        ],
+        "localizedObjectAnnotations": [
+          {
+            "boundingPoly": {
+              "normalizedVertices": [
+                {
+                  "x": 0.056396484,
+                  "y": 0.07080078
+                },
+                {
+                  "x": 0.703125,
+                  "y": 0.07080078
+                },
+                {
+                  "x": 0.703125,
+                  "y": 1
+                },
+                {
+                  "x": 0.056396484,
+                  "y": 1
+                }
+              ]
+            },
+            "mid": "/m/01mzpv",
+            "name": "Chair",
+            "score": 0.89285785
+          }
+        ],
+        "logoAnnotations": [
+          {
+            "boundingPoly": {
+              "vertices": [
+                {
+                  "x": 18,
+                  "y": 15
+                },
+                {
+                  "x": 402,
+                  "y": 15
+                },
+                {
+                  "x": 402,
+                  "y": 485
+                },
+                {
+                  "x": 18,
+                  "y": 485
+                }
+              ]
+            },
+            "description": "Nilkamal Plastics",
+            "mid": "/m/0dllkxv",
+            "score": 0.63010293
+          }
+        ],
+        "safeSearchAnnotation": {
+          "adult": "VERY_UNLIKELY",
+          "medical": "VERY_UNLIKELY",
+          "racy": "VERY_UNLIKELY",
+          "spoof": "VERY_UNLIKELY",
+          "violence": "VERY_UNLIKELY"
+        }
+      },
+      {
+        "id":"4",
+        "cropHintsAnnotation": {
+          "cropHints": [
+            {
+              "boundingPoly": {
+                "vertices": [
+                  {},
+                  {
+                    "x": 400
+                  },
+                  {
+                    "x": 400,
+                    "y": 499
+                  },
+                  {
+                    "y": 499
+                  }
+                ]
+              },
+              "confidence": 0.34431642,
+              "importanceFraction": 1
+            },
+            {
+              "boundingPoly": {
+                "vertices": [
+                  {
+                    "y": 5
+                  },
+                  {
+                    "x": 487,
+                    "y": 5
+                  },
+                  {
+                    "x": 487,
+                    "y": 494
+                  },
+                  {
+                    "y": 494
+                  }
+                ]
+              },
+              "confidence": 0.28916654,
+              "importanceFraction": 1
+            },
+            {
+              "boundingPoly": {
+                "vertices": [
+                  {
+                    "y": 46
+                  },
+                  {
+                    "x": 487,
+                    "y": 46
+                  },
+                  {
+                    "x": 487,
+                    "y": 453
+                  },
+                  {
+                    "y": 453
+                  }
+                ]
+              },
+              "confidence": 0.34699988,
+              "importanceFraction": 1
+            }
+          ]
+        },
+        "imagePropertiesAnnotation": {
+          "cropHints": [
+            {
+              "boundingPoly": {
+                "vertices": [
+                  {},
+                  {
+                    "x": 400
+                  },
+                  {
+                    "x": 400,
+                    "y": 499
+                  },
+                  {
+                    "y": 499
+                  }
+                ]
+              },
+              "confidence": 0.34431642,
+              "importanceFraction": 1
+            },
+            {
+              "boundingPoly": {
+                "vertices": [
+                  {
+                    "y": 5
+                  },
+                  {
+                    "x": 487,
+                    "y": 5
+                  },
+                  {
+                    "x": 487,
+                    "y": 494
+                  },
+                  {
+                    "y": 494
+                  }
+                ]
+              },
+              "confidence": 0.28916654,
+              "importanceFraction": 1
+            },
+            {
+              "boundingPoly": {
+                "vertices": [
+                  {
+                    "y": 46
+                  },
+                  {
+                    "x": 487,
+                    "y": 46
+                  },
+                  {
+                    "x": 487,
+                    "y": 453
+                  },
+                  {
+                    "y": 453
+                  }
+                ]
+              },
+              "confidence": 0.34699988,
+              "importanceFraction": 1
+            }
+          ],
+          "dominantColors": {
+            "colors": [
+              {
+                "color": {
+                  "blue": 107,
+                  "green": 115,
+                  "red": 131
+                },
+                "hex": "83736B",
+                "percent": 20.49426466184128,
+                "percentRounded": 20,
+                "pixelFraction": 0.060508784,
+                "rgb": "131, 115,\n 107",
+                "score": 0.16999002
+              },
+              {
+                "color": {
+                  "blue": 236,
+                  "green": 240,
+                  "red": 246
+                },
+                "hex": "F6F0EC",
+                "percent": 2.321626413232616,
+                "percentRounded": 2,
+                "pixelFraction": 0.67970926,
+                "rgb": "246, 240,\n 236",
+                "score": 0.019256769
+              },
+              {
+                "color": {
+                  "blue": 122,
+                  "green": 201,
+                  "red": 218
+                },
+                "hex": "DAC97A",
+                "percent": 0.8977484633367443,
+                "percentRounded": 1,
+                "pixelFraction": 0.00030284675,
+                "rgb": "218, 201,\n 122",
+                "score": 0.0074463896
+              },
+              {
+                "color": {
+                  "blue": 75,
+                  "green": 82,
+                  "red": 99
+                },
+                "hex": "63524B",
+                "percent": 19.391647070334976,
+                "percentRounded": 19,
+                "pixelFraction": 0.070745006,
+                "rgb": "99, 82,\n 75",
+                "score": 0.16084434
+              },
+              {
+                "color": {
+                  "blue": 64,
+                  "green": 79,
+                  "red": 100
+                },
+                "hex": "644F40",
+                "percent": 16.68520727680794,
+                "percentRounded": 17,
+                "pixelFraction": 0.032101758,
+                "rgb": "100, 79,\n 64",
+                "score": 0.13839573
+              },
+              {
+                "color": {
+                  "blue": 46,
+                  "green": 52,
+                  "red": 67
+                },
+                "hex": "43342E",
+                "percent": 12.701718390034857,
+                "percentRounded": 13,
+                "pixelFraction": 0.0466384,
+                "rgb": "67, 52,\n 46",
+                "score": 0.105354615
+              },
+              {
+                "color": {
+                  "blue": 103,
+                  "green": 116,
+                  "red": 137
+                },
+                "hex": "897467",
+                "percent": 8.305893241415914,
+                "percentRounded": 8,
+                "pixelFraction": 0.013930951,
+                "rgb": "137, 116,\n 103",
+                "score": 0.06889337
+              },
+              {
+                "color": {
+                  "blue": 38,
+                  "green": 52,
+                  "red": 71
+                },
+                "hex": "473426",
+                "percent": 8.221864234395325,
+                "percentRounded": 8,
+                "pixelFraction": 0.01865536,
+                "rgb": "71, 52,\n 38",
+                "score": 0.06819639
+              },
+              {
+                "color": {
+                  "blue": 138,
+                  "green": 146,
+                  "red": 161
+                },
+                "hex": "A1928A",
+                "percent": 7.259582487094153,
+                "percentRounded": 7,
+                "pixelFraction": 0.019018777,
+                "rgb": "161, 146,\n 138",
+                "score": 0.060214728
+              },
+              {
+                "color": {
+                  "blue": 64,
+                  "green": 76,
+                  "red": 103
+                },
+                "hex": "674C40",
+                "percent": 3.7204477615061946,
+                "percentRounded": 4,
+                "pixelFraction": 0.00841914,
+                "rgb": "103, 76,\n 64",
+                "score": 0.030859316
+              }
+            ]
+          }
+        },
+        "labelAnnotations": [
+          {
+            "description": "Furniture",
+            "mid": "/m/0c_jw",
+            "score": 0.9456387,
+            "topicality": 0.9456387
+          },
+          {
+            "description": "Chair",
+            "mid": "/m/01mzpv",
+            "score": 0.8928524,
+            "topicality": 0.8928524
+          },
+          {
+            "description": "Outdoor furniture",
+            "mid": "/m/0cp2d4k",
+            "score": 0.84238136,
+            "topicality": 0.84238136
+          },
+          {
+            "description": "Armrest",
+            "mid": "/m/0fy6hp",
+            "score": 0.8213057,
+            "topicality": 0.8213057
+          },
+          {
+            "description": "Wood",
+            "mid": "/m/083vt",
+            "score": 0.80767685,
+            "topicality": 0.80767685
+          },
+          {
+            "description": "Comfort",
+            "mid": "/m/08xgn7",
+            "score": 0.8044044,
+            "topicality": 0.8044044
+          },
+          {
+            "description": "Rectangle",
+            "mid": "/m/0j62f",
+            "score": 0.7689281,
+            "topicality": 0.7689281
+          },
+          {
+            "description": "Wood stain",
+            "mid": "/m/05t06b",
+            "score": 0.74207026,
+            "topicality": 0.74207026
+          },
+          {
+            "description": "Hardwood",
+            "mid": "/m/020g49",
+            "score": 0.72900265,
+            "topicality": 0.72900265
+          },
+          {
+            "description": "Terrestrial plant",
+            "mid": "/m/0fbflw",
+            "score": 0.70574313,
+            "topicality": 0.70574313
+          },
+          {
+            "description": "Auto part",
+            "mid": "/m/08dz3q",
+            "score": 0.5620352,
+            "topicality": 0.5620352
+          },
+          {
+            "description": "Varnish",
+            "mid": "/m/01ffcg",
+            "score": 0.50571036,
+            "topicality": 0.50571036
+          }
+        ],
+        "localizedObjectAnnotations": [
+          {
+            "boundingPoly": {
+              "normalizedVertices": [
+                {
+                  "x": 0.056396484,
+                  "y": 0.07080078
+                },
+                {
+                  "x": 0.703125,
+                  "y": 0.07080078
+                },
+                {
+                  "x": 0.703125,
+                  "y": 1
+                },
+                {
+                  "x": 0.056396484,
+                  "y": 1
+                }
+              ]
+            },
+            "mid": "/m/01mzpv",
+            "name": "Chair",
+            "score": 0.89285785
+          }
+        ],
+        "logoAnnotations": [
+          {
+            "boundingPoly": {
+              "vertices": [
+                {
+                  "x": 18,
+                  "y": 15
+                },
+                {
+                  "x": 402,
+                  "y": 15
+                },
+                {
+                  "x": 402,
+                  "y": 485
+                },
+                {
+                  "x": 18,
+                  "y": 485
+                }
+              ]
+            },
+            "description": "Nilkamal Plastics",
+            "mid": "/m/0dllkxv",
+            "score": 0.63010293
+          }
+        ],
+        "safeSearchAnnotation": {
+          "adult": "VERY_UNLIKELY",
+          "medical": "VERY_UNLIKELY",
+          "racy": "VERY_UNLIKELY",
+          "spoof": "VERY_UNLIKELY",
+          "violence": "VERY_UNLIKELY"
+        }
+      },
+      {
+        "id":"5",
+        "cropHintsAnnotation": {
+          "cropHints": [
+            {
+              "boundingPoly": {
+                "vertices": [
+                  {},
+                  {
+                    "x": 400
+                  },
+                  {
+                    "x": 400,
+                    "y": 499
+                  },
+                  {
+                    "y": 499
+                  }
+                ]
+              },
+              "confidence": 0.34431642,
+              "importanceFraction": 1
+            },
+            {
+              "boundingPoly": {
+                "vertices": [
+                  {
+                    "y": 5
+                  },
+                  {
+                    "x": 487,
+                    "y": 5
+                  },
+                  {
+                    "x": 487,
+                    "y": 494
+                  },
+                  {
+                    "y": 494
+                  }
+                ]
+              },
+              "confidence": 0.28916654,
+              "importanceFraction": 1
+            },
+            {
+              "boundingPoly": {
+                "vertices": [
+                  {
+                    "y": 46
+                  },
+                  {
+                    "x": 487,
+                    "y": 46
+                  },
+                  {
+                    "x": 487,
+                    "y": 453
+                  },
+                  {
+                    "y": 453
+                  }
+                ]
+              },
+              "confidence": 0.34699988,
+              "importanceFraction": 1
+            }
+          ]
+        },
+        "imagePropertiesAnnotation": {
+          "cropHints": [
+            {
+              "boundingPoly": {
+                "vertices": [
+                  {},
+                  {
+                    "x": 400
+                  },
+                  {
+                    "x": 400,
+                    "y": 499
+                  },
+                  {
+                    "y": 499
+                  }
+                ]
+              },
+              "confidence": 0.34431642,
+              "importanceFraction": 1
+            },
+            {
+              "boundingPoly": {
+                "vertices": [
+                  {
+                    "y": 5
+                  },
+                  {
+                    "x": 487,
+                    "y": 5
+                  },
+                  {
+                    "x": 487,
+                    "y": 494
+                  },
+                  {
+                    "y": 494
+                  }
+                ]
+              },
+              "confidence": 0.28916654,
+              "importanceFraction": 1
+            },
+            {
+              "boundingPoly": {
+                "vertices": [
+                  {
+                    "y": 46
+                  },
+                  {
+                    "x": 487,
+                    "y": 46
+                  },
+                  {
+                    "x": 487,
+                    "y": 453
+                  },
+                  {
+                    "y": 453
+                  }
+                ]
+              },
+              "confidence": 0.34699988,
+              "importanceFraction": 1
+            }
+          ],
+          "dominantColors": {
+            "colors": [
+              {
+                "color": {
+                  "blue": 107,
+                  "green": 115,
+                  "red": 131
+                },
+                "hex": "83736B",
+                "percent": 20.49426466184128,
+                "percentRounded": 20,
+                "pixelFraction": 0.060508784,
+                "rgb": "131, 115,\n 107",
+                "score": 0.16999002
+              },
+              {
+                "color": {
+                  "blue": 236,
+                  "green": 240,
+                  "red": 246
+                },
+                "hex": "F6F0EC",
+                "percent": 2.321626413232616,
+                "percentRounded": 2,
+                "pixelFraction": 0.67970926,
+                "rgb": "246, 240,\n 236",
+                "score": 0.019256769
+              },
+              {
+                "color": {
+                  "blue": 122,
+                  "green": 201,
+                  "red": 218
+                },
+                "hex": "DAC97A",
+                "percent": 0.8977484633367443,
+                "percentRounded": 1,
+                "pixelFraction": 0.00030284675,
+                "rgb": "218, 201,\n 122",
+                "score": 0.0074463896
+              },
+              {
+                "color": {
+                  "blue": 75,
+                  "green": 82,
+                  "red": 99
+                },
+                "hex": "63524B",
+                "percent": 19.391647070334976,
+                "percentRounded": 19,
+                "pixelFraction": 0.070745006,
+                "rgb": "99, 82,\n 75",
+                "score": 0.16084434
+              },
+              {
+                "color": {
+                  "blue": 64,
+                  "green": 79,
+                  "red": 100
+                },
+                "hex": "644F40",
+                "percent": 16.68520727680794,
+                "percentRounded": 17,
+                "pixelFraction": 0.032101758,
+                "rgb": "100, 79,\n 64",
+                "score": 0.13839573
+              },
+              {
+                "color": {
+                  "blue": 46,
+                  "green": 52,
+                  "red": 67
+                },
+                "hex": "43342E",
+                "percent": 12.701718390034857,
+                "percentRounded": 13,
+                "pixelFraction": 0.0466384,
+                "rgb": "67, 52,\n 46",
+                "score": 0.105354615
+              },
+              {
+                "color": {
+                  "blue": 103,
+                  "green": 116,
+                  "red": 137
+                },
+                "hex": "897467",
+                "percent": 8.305893241415914,
+                "percentRounded": 8,
+                "pixelFraction": 0.013930951,
+                "rgb": "137, 116,\n 103",
+                "score": 0.06889337
+              },
+              {
+                "color": {
+                  "blue": 38,
+                  "green": 52,
+                  "red": 71
+                },
+                "hex": "473426",
+                "percent": 8.221864234395325,
+                "percentRounded": 8,
+                "pixelFraction": 0.01865536,
+                "rgb": "71, 52,\n 38",
+                "score": 0.06819639
+              },
+              {
+                "color": {
+                  "blue": 138,
+                  "green": 146,
+                  "red": 161
+                },
+                "hex": "A1928A",
+                "percent": 7.259582487094153,
+                "percentRounded": 7,
+                "pixelFraction": 0.019018777,
+                "rgb": "161, 146,\n 138",
+                "score": 0.060214728
+              },
+              {
+                "color": {
+                  "blue": 64,
+                  "green": 76,
+                  "red": 103
+                },
+                "hex": "674C40",
+                "percent": 3.7204477615061946,
+                "percentRounded": 4,
+                "pixelFraction": 0.00841914,
+                "rgb": "103, 76,\n 64",
+                "score": 0.030859316
+              }
+            ]
+          }
+        },
+        "labelAnnotations": [
+          {
+            "description": "Furniture",
+            "mid": "/m/0c_jw",
+            "score": 0.9456387,
+            "topicality": 0.9456387
+          },
+          {
+            "description": "Chair",
+            "mid": "/m/01mzpv",
+            "score": 0.8928524,
+            "topicality": 0.8928524
+          },
+          {
+            "description": "Outdoor furniture",
+            "mid": "/m/0cp2d4k",
+            "score": 0.84238136,
+            "topicality": 0.84238136
+          },
+          {
+            "description": "Armrest",
+            "mid": "/m/0fy6hp",
+            "score": 0.8213057,
+            "topicality": 0.8213057
+          },
+          {
+            "description": "Wood",
+            "mid": "/m/083vt",
+            "score": 0.80767685,
+            "topicality": 0.80767685
+          },
+          {
+            "description": "Comfort",
+            "mid": "/m/08xgn7",
+            "score": 0.8044044,
+            "topicality": 0.8044044
+          },
+          {
+            "description": "Rectangle",
+            "mid": "/m/0j62f",
+            "score": 0.7689281,
+            "topicality": 0.7689281
+          },
+          {
+            "description": "Wood stain",
+            "mid": "/m/05t06b",
+            "score": 0.74207026,
+            "topicality": 0.74207026
+          },
+          {
+            "description": "Hardwood",
+            "mid": "/m/020g49",
+            "score": 0.72900265,
+            "topicality": 0.72900265
+          },
+          {
+            "description": "Terrestrial plant",
+            "mid": "/m/0fbflw",
+            "score": 0.70574313,
+            "topicality": 0.70574313
+          },
+          {
+            "description": "Auto part",
+            "mid": "/m/08dz3q",
+            "score": 0.5620352,
+            "topicality": 0.5620352
+          },
+          {
+            "description": "Varnish",
+            "mid": "/m/01ffcg",
+            "score": 0.50571036,
+            "topicality": 0.50571036
+          }
+        ],
+        "localizedObjectAnnotations": [
+          {
+            "boundingPoly": {
+              "normalizedVertices": [
+                {
+                  "x": 0.056396484,
+                  "y": 0.07080078
+                },
+                {
+                  "x": 0.703125,
+                  "y": 0.07080078
+                },
+                {
+                  "x": 0.703125,
+                  "y": 1
+                },
+                {
+                  "x": 0.056396484,
+                  "y": 1
+                }
+              ]
+            },
+            "mid": "/m/01mzpv",
+            "name": "Chair",
+            "score": 0.89285785
+          }
+        ],
+        "logoAnnotations": [
+          {
+            "boundingPoly": {
+              "vertices": [
+                {
+                  "x": 18,
+                  "y": 15
+                },
+                {
+                  "x": 402,
+                  "y": 15
+                },
+                {
+                  "x": 402,
+                  "y": 485
+                },
+                {
+                  "x": 18,
+                  "y": 485
+                }
+              ]
+            },
+            "description": "Nilkamal Plastics",
+            "mid": "/m/0dllkxv",
+            "score": 0.63010293
+          }
+        ],
+        "safeSearchAnnotation": {
+          "adult": "VERY_UNLIKELY",
+          "medical": "VERY_UNLIKELY",
+          "racy": "VERY_UNLIKELY",
+          "spoof": "VERY_UNLIKELY",
+          "violence": "VERY_UNLIKELY"
+        }
+      },
+      {
+        "id":"6",
+        "cropHintsAnnotation": {
+          "cropHints": [
+            {
+              "boundingPoly": {
+                "vertices": [
+                  {},
+                  {
+                    "x": 400
+                  },
+                  {
+                    "x": 400,
+                    "y": 499
+                  },
+                  {
+                    "y": 499
+                  }
+                ]
+              },
+              "confidence": 0.34431642,
+              "importanceFraction": 1
+            },
+            {
+              "boundingPoly": {
+                "vertices": [
+                  {
+                    "y": 5
+                  },
+                  {
+                    "x": 487,
+                    "y": 5
+                  },
+                  {
+                    "x": 487,
+                    "y": 494
+                  },
+                  {
+                    "y": 494
+                  }
+                ]
+              },
+              "confidence": 0.28916654,
+              "importanceFraction": 1
+            },
+            {
+              "boundingPoly": {
+                "vertices": [
+                  {
+                    "y": 46
+                  },
+                  {
+                    "x": 487,
+                    "y": 46
+                  },
+                  {
+                    "x": 487,
+                    "y": 453
+                  },
+                  {
+                    "y": 453
+                  }
+                ]
+              },
+              "confidence": 0.34699988,
+              "importanceFraction": 1
+            }
+          ]
+        },
+        "imagePropertiesAnnotation": {
+          "cropHints": [
+            {
+              "boundingPoly": {
+                "vertices": [
+                  {},
+                  {
+                    "x": 400
+                  },
+                  {
+                    "x": 400,
+                    "y": 499
+                  },
+                  {
+                    "y": 499
+                  }
+                ]
+              },
+              "confidence": 0.34431642,
+              "importanceFraction": 1
+            },
+            {
+              "boundingPoly": {
+                "vertices": [
+                  {
+                    "y": 5
+                  },
+                  {
+                    "x": 487,
+                    "y": 5
+                  },
+                  {
+                    "x": 487,
+                    "y": 494
+                  },
+                  {
+                    "y": 494
+                  }
+                ]
+              },
+              "confidence": 0.28916654,
+              "importanceFraction": 1
+            },
+            {
+              "boundingPoly": {
+                "vertices": [
+                  {
+                    "y": 46
+                  },
+                  {
+                    "x": 487,
+                    "y": 46
+                  },
+                  {
+                    "x": 487,
+                    "y": 453
+                  },
+                  {
+                    "y": 453
+                  }
+                ]
+              },
+              "confidence": 0.34699988,
+              "importanceFraction": 1
+            }
+          ],
+          "dominantColors": {
+            "colors": [
+              {
+                "color": {
+                  "blue": 107,
+                  "green": 115,
+                  "red": 131
+                },
+                "hex": "83736B",
+                "percent": 20.49426466184128,
+                "percentRounded": 20,
+                "pixelFraction": 0.060508784,
+                "rgb": "131, 115,\n 107",
+                "score": 0.16999002
+              },
+              {
+                "color": {
+                  "blue": 236,
+                  "green": 240,
+                  "red": 246
+                },
+                "hex": "F6F0EC",
+                "percent": 2.321626413232616,
+                "percentRounded": 2,
+                "pixelFraction": 0.67970926,
+                "rgb": "246, 240,\n 236",
+                "score": 0.019256769
+              },
+              {
+                "color": {
+                  "blue": 122,
+                  "green": 201,
+                  "red": 218
+                },
+                "hex": "DAC97A",
+                "percent": 0.8977484633367443,
+                "percentRounded": 1,
+                "pixelFraction": 0.00030284675,
+                "rgb": "218, 201,\n 122",
+                "score": 0.0074463896
+              },
+              {
+                "color": {
+                  "blue": 75,
+                  "green": 82,
+                  "red": 99
+                },
+                "hex": "63524B",
+                "percent": 19.391647070334976,
+                "percentRounded": 19,
+                "pixelFraction": 0.070745006,
+                "rgb": "99, 82,\n 75",
+                "score": 0.16084434
+              },
+              {
+                "color": {
+                  "blue": 64,
+                  "green": 79,
+                  "red": 100
+                },
+                "hex": "644F40",
+                "percent": 16.68520727680794,
+                "percentRounded": 17,
+                "pixelFraction": 0.032101758,
+                "rgb": "100, 79,\n 64",
+                "score": 0.13839573
+              },
+              {
+                "color": {
+                  "blue": 46,
+                  "green": 52,
+                  "red": 67
+                },
+                "hex": "43342E",
+                "percent": 12.701718390034857,
+                "percentRounded": 13,
+                "pixelFraction": 0.0466384,
+                "rgb": "67, 52,\n 46",
+                "score": 0.105354615
+              },
+              {
+                "color": {
+                  "blue": 103,
+                  "green": 116,
+                  "red": 137
+                },
+                "hex": "897467",
+                "percent": 8.305893241415914,
+                "percentRounded": 8,
+                "pixelFraction": 0.013930951,
+                "rgb": "137, 116,\n 103",
+                "score": 0.06889337
+              },
+              {
+                "color": {
+                  "blue": 38,
+                  "green": 52,
+                  "red": 71
+                },
+                "hex": "473426",
+                "percent": 8.221864234395325,
+                "percentRounded": 8,
+                "pixelFraction": 0.01865536,
+                "rgb": "71, 52,\n 38",
+                "score": 0.06819639
+              },
+              {
+                "color": {
+                  "blue": 138,
+                  "green": 146,
+                  "red": 161
+                },
+                "hex": "A1928A",
+                "percent": 7.259582487094153,
+                "percentRounded": 7,
+                "pixelFraction": 0.019018777,
+                "rgb": "161, 146,\n 138",
+                "score": 0.060214728
+              },
+              {
+                "color": {
+                  "blue": 64,
+                  "green": 76,
+                  "red": 103
+                },
+                "hex": "674C40",
+                "percent": 3.7204477615061946,
+                "percentRounded": 4,
+                "pixelFraction": 0.00841914,
+                "rgb": "103, 76,\n 64",
+                "score": 0.030859316
+              }
+            ]
+          }
+        },
+        "labelAnnotations": [
+          {
+            "description": "Furniture",
+            "mid": "/m/0c_jw",
+            "score": 0.9456387,
+            "topicality": 0.9456387
+          },
+          {
+            "description": "Chair",
+            "mid": "/m/01mzpv",
+            "score": 0.8928524,
+            "topicality": 0.8928524
+          },
+          {
+            "description": "Outdoor furniture",
+            "mid": "/m/0cp2d4k",
+            "score": 0.84238136,
+            "topicality": 0.84238136
+          },
+          {
+            "description": "Armrest",
+            "mid": "/m/0fy6hp",
+            "score": 0.8213057,
+            "topicality": 0.8213057
+          },
+          {
+            "description": "Wood",
+            "mid": "/m/083vt",
+            "score": 0.80767685,
+            "topicality": 0.80767685
+          },
+          {
+            "description": "Comfort",
+            "mid": "/m/08xgn7",
+            "score": 0.8044044,
+            "topicality": 0.8044044
+          },
+          {
+            "description": "Rectangle",
+            "mid": "/m/0j62f",
+            "score": 0.7689281,
+            "topicality": 0.7689281
+          },
+          {
+            "description": "Wood stain",
+            "mid": "/m/05t06b",
+            "score": 0.74207026,
+            "topicality": 0.74207026
+          },
+          {
+            "description": "Hardwood",
+            "mid": "/m/020g49",
+            "score": 0.72900265,
+            "topicality": 0.72900265
+          },
+          {
+            "description": "Terrestrial plant",
+            "mid": "/m/0fbflw",
+            "score": 0.70574313,
+            "topicality": 0.70574313
+          },
+          {
+            "description": "Auto part",
+            "mid": "/m/08dz3q",
+            "score": 0.5620352,
+            "topicality": 0.5620352
+          },
+          {
+            "description": "Varnish",
+            "mid": "/m/01ffcg",
+            "score": 0.50571036,
+            "topicality": 0.50571036
+          }
+        ],
+        "localizedObjectAnnotations": [
+          {
+            "boundingPoly": {
+              "normalizedVertices": [
+                {
+                  "x": 0.056396484,
+                  "y": 0.07080078
+                },
+                {
+                  "x": 0.703125,
+                  "y": 0.07080078
+                },
+                {
+                  "x": 0.703125,
+                  "y": 1
+                },
+                {
+                  "x": 0.056396484,
+                  "y": 1
+                }
+              ]
+            },
+            "mid": "/m/01mzpv",
+            "name": "Chair",
+            "score": 0.89285785
+          }
+        ],
+        "logoAnnotations": [
+          {
+            "boundingPoly": {
+              "vertices": [
+                {
+                  "x": 18,
+                  "y": 15
+                },
+                {
+                  "x": 402,
+                  "y": 15
+                },
+                {
+                  "x": 402,
+                  "y": 485
+                },
+                {
+                  "x": 18,
+                  "y": 485
+                }
+              ]
+            },
+            "description": "Nilkamal Plastics",
+            "mid": "/m/0dllkxv",
+            "score": 0.63010293
+          }
+        ],
+        "safeSearchAnnotation": {
+          "adult": "VERY_UNLIKELY",
+          "medical": "VERY_UNLIKELY",
+          "racy": "VERY_UNLIKELY",
+          "spoof": "VERY_UNLIKELY",
+          "violence": "VERY_UNLIKELY"
+        }
+      }
+]
